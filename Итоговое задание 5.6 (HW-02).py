@@ -71,3 +71,5 @@ while True:
             break
     if win(value):
             break
+
+time.sleep(60)

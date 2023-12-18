@@ -5,8 +5,8 @@
 {% endblock title %}
  
 {% block content %}
-    <h2>{{ flatpage.title }}</h2>
+    <h1><span style="text-decoration: underline; color: #0000ff;"><strong>{{ flatpage.title }}</strong></span></h1>
     <hr>
     <h3>Ссылка на домашнее задание:</h3>
-{{ flatpage.content }}
+    <p><span style="color: #ff0000;"><strong><em>{{ flatpage.content }}</em></strong></span></p> 
 {% endblock content %}
